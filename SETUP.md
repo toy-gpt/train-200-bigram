@@ -9,11 +9,18 @@ Follow the detailed instructions at:
 
 ## 02: Set Up Project (Once Per Project)
 
-Open a terminal and run:
+Fork this repo into your GitHub account.
+In your repo Settings:
+
+-  Go to Pages tab / Enable GitHub Pages / Build and deployment / set Source to **GitHub Actions**
+-  Go to Advanced Security tab / Dependabot / Dependabot security updates / **Enable**
+-  And Advanced Security tab / Dependabot / Grouped security updates / **Enable**
+
+Open a machine terminal to the folder where you store your **Repos**, and run:
 
 ```shell
-git clone https://github.com/YOURACCOUNT/toy-gpt-train
-cd train-100-unigram
+git clone https://github.com/YOURACCOUNT/train-200-bigram
+cd train-200-bigram
 code .
 ```
 
