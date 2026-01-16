@@ -92,4 +92,4 @@ See detailed instructions and troubleshooting at:
 
 ## Resources
 
-- [Pro-Analytics-02](<[./docs/pro-tips.md](https://denisecase.github.io/pro-analytics-02/)>) - guide to professional Python
+- [Pro-Analytics-02](https://denisecase.github.io/pro-analytics-02/) - guide to professional Python
