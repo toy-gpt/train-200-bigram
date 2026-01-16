@@ -1,0 +1,1392 @@
+2026-01-14 16:01:02 | INFO | P01 | === RUN START ===
+2026-01-14 16:01:02 | INFO | P01 | project=Simple Tokenizer Demo
+2026-01-14 16:01:02 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:01:02 | INFO | P01 | python=3.14.0
+2026-01-14 16:01:02 | INFO | P01 | os=Windows 11
+2026-01-14 16:01:02 | INFO | P01 | shell=powershell
+2026-01-14 16:01:02 | INFO | P01 | cwd=.
+2026-01-14 16:01:02 | INFO | P01 | github_actions=False
+2026-01-14 16:01:02 | ERROR | P01 | Corpus file not found at C:\Users\edaci\Documents\datafun\toy-gpt-train\src\corpus\000_cat_dog.txt
+2026-01-14 16:01:02 | INFO | P01 | Tokenizer initialized with 0 tokens.
+2026-01-14 16:01:02 | INFO | P01 | First 10 tokens: []
+2026-01-14 16:01:02 | INFO | P01 | Total number of tokens: 0
+2026-01-14 16:01:02 | INFO | P01 | No tokens available to calculate average length.
+2026-01-14 16:02:25 | INFO | P01 | === RUN START ===
+2026-01-14 16:02:25 | INFO | P01 | project=Simple Tokenizer Demo
+2026-01-14 16:02:25 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:02:25 | INFO | P01 | python=3.14.0
+2026-01-14 16:02:25 | INFO | P01 | os=Windows 11
+2026-01-14 16:02:25 | INFO | P01 | shell=powershell
+2026-01-14 16:02:25 | INFO | P01 | cwd=.
+2026-01-14 16:02:25 | INFO | P01 | github_actions=False
+2026-01-14 16:02:25 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 16:02:25 | INFO | P01 | First 10 tokens: ['the', 'cat', 'sat', 'on', 'the', 'mat', 'the', 'dog', 'sat', 'on']
+2026-01-14 16:02:25 | INFO | P01 | Total number of tokens: 24
+2026-01-14 16:02:25 | INFO | P01 | Average token length: 2.83
+2026-01-14 16:02:52 | INFO | P01 | === RUN START ===
+2026-01-14 16:02:52 | INFO | P01 | project=Vocabulary Demo
+2026-01-14 16:02:52 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:02:52 | INFO | P01 | python=3.14.0
+2026-01-14 16:02:52 | INFO | P01 | os=Windows 11
+2026-01-14 16:02:52 | INFO | P01 | shell=powershell
+2026-01-14 16:02:52 | INFO | P01 | cwd=.
+2026-01-14 16:02:52 | INFO | P01 | github_actions=False
+2026-01-14 16:03:13 | INFO | P01 | === RUN START ===
+2026-01-14 16:03:13 | INFO | P01 | project=Vocabulary Demo
+2026-01-14 16:03:13 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:03:13 | INFO | P01 | python=3.14.0
+2026-01-14 16:03:13 | INFO | P01 | os=Windows 11
+2026-01-14 16:03:13 | INFO | P01 | shell=powershell
+2026-01-14 16:03:13 | INFO | P01 | cwd=.
+2026-01-14 16:03:13 | INFO | P01 | github_actions=False
+2026-01-14 16:03:52 | INFO | P01 | === RUN START ===
+2026-01-14 16:03:52 | INFO | P01 | project=Vocabulary Demo
+2026-01-14 16:03:52 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:03:52 | INFO | P01 | python=3.14.0
+2026-01-14 16:03:52 | INFO | P01 | os=Windows 11
+2026-01-14 16:03:52 | INFO | P01 | shell=powershell
+2026-01-14 16:03:52 | INFO | P01 | cwd=.
+2026-01-14 16:03:52 | INFO | P01 | github_actions=False
+2026-01-14 16:03:53 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 16:03:53 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 16:03:53 | INFO | P01 | Vocabulary size: 8
+2026-01-14 16:03:53 | INFO | P01 | Sample token: 'the' | ID: 7 | Frequency: 8
+2026-01-14 16:04:19 | INFO | P01 | === RUN START ===
+2026-01-14 16:04:19 | INFO | P01 | project=Simple Next-Token Model Demo
+2026-01-14 16:04:19 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:04:19 | INFO | P01 | python=3.14.0
+2026-01-14 16:04:19 | INFO | P01 | os=Windows 11
+2026-01-14 16:04:19 | INFO | P01 | shell=powershell
+2026-01-14 16:04:19 | INFO | P01 | cwd=.
+2026-01-14 16:04:19 | INFO | P01 | github_actions=False
+2026-01-14 16:04:19 | INFO | P01 | Model initialized with vocabulary size 6.
+2026-01-14 16:04:19 | INFO | P01 | Input token ID: 0
+2026-01-14 16:04:19 | INFO | P01 | Output probabilities:
+2026-01-14 16:04:19 | INFO | P01 |   Token ID 0 -> 0.1667
+2026-01-14 16:04:19 | INFO | P01 |   Token ID 1 -> 0.1667
+2026-01-14 16:04:19 | INFO | P01 |   Token ID 2 -> 0.1667
+2026-01-14 16:04:19 | INFO | P01 |   Token ID 3 -> 0.1667
+2026-01-14 16:04:19 | INFO | P01 |   Token ID 4 -> 0.1667
+2026-01-14 16:04:19 | INFO | P01 |   Token ID 5 -> 0.1667
+2026-01-14 16:36:10 | INFO | P01 | === RUN START ===
+2026-01-14 16:36:10 | INFO | P01 | project=Simple Next-Token Model Demo
+2026-01-14 16:36:10 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:36:10 | INFO | P01 | python=3.14.0
+2026-01-14 16:36:10 | INFO | P01 | os=Windows 11
+2026-01-14 16:36:10 | INFO | P01 | shell=powershell
+2026-01-14 16:36:10 | INFO | P01 | cwd=.
+2026-01-14 16:36:10 | INFO | P01 | github_actions=False
+2026-01-14 16:36:17 | INFO | P01 | === RUN START ===
+2026-01-14 16:36:17 | INFO | P01 | project=Simple Next-Token Model Demo
+2026-01-14 16:36:17 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:36:17 | INFO | P01 | python=3.14.0
+2026-01-14 16:36:17 | INFO | P01 | os=Windows 11
+2026-01-14 16:36:17 | INFO | P01 | shell=powershell
+2026-01-14 16:36:17 | INFO | P01 | cwd=.
+2026-01-14 16:36:17 | INFO | P01 | github_actions=False
+2026-01-14 16:36:45 | INFO | P01 | === RUN START ===
+2026-01-14 16:36:45 | INFO | P01 | project=Simple Next-Token Model Demo
+2026-01-14 16:36:45 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:36:45 | INFO | P01 | python=3.14.0
+2026-01-14 16:36:45 | INFO | P01 | os=Windows 11
+2026-01-14 16:36:45 | INFO | P01 | shell=powershell
+2026-01-14 16:36:45 | INFO | P01 | cwd=.
+2026-01-14 16:36:45 | INFO | P01 | github_actions=False
+2026-01-14 16:36:45 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 16:36:45 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 16:36:45 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 16:36:45 | INFO | P01 | Input token ID: 0
+2026-01-14 16:36:45 | INFO | P01 | Output probabilities:
+2026-01-14 16:36:45 | INFO | P01 |   Token ID 0 -> 0.1250
+2026-01-14 16:36:45 | INFO | P01 |   Token ID 1 -> 0.1250
+2026-01-14 16:36:45 | INFO | P01 |   Token ID 2 -> 0.1250
+2026-01-14 16:36:45 | INFO | P01 |   Token ID 3 -> 0.1250
+2026-01-14 16:36:45 | INFO | P01 |   Token ID 4 -> 0.1250
+2026-01-14 16:36:45 | INFO | P01 |   Token ID 5 -> 0.1250
+2026-01-14 16:36:45 | INFO | P01 |   Token ID 6 -> 0.1250
+2026-01-14 16:36:45 | INFO | P01 |   Token ID 7 -> 0.1250
+2026-01-14 16:38:36 | INFO | P01 | === RUN START ===
+2026-01-14 16:38:36 | INFO | P01 | project=Simple Next-Token Model Demo
+2026-01-14 16:38:36 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:38:36 | INFO | P01 | python=3.14.0
+2026-01-14 16:38:36 | INFO | P01 | os=Windows 11
+2026-01-14 16:38:36 | INFO | P01 | shell=powershell
+2026-01-14 16:38:36 | INFO | P01 | cwd=.
+2026-01-14 16:38:36 | INFO | P01 | github_actions=False
+2026-01-14 16:38:36 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 16:38:36 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 16:38:36 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 16:38:36 | INFO | P01 | Input token ID: 0
+2026-01-14 16:38:36 | INFO | P01 | Output probabilities:
+2026-01-14 16:38:36 | INFO | P01 |   Token ID 0 -> 0.1250
+2026-01-14 16:38:36 | INFO | P01 |   Token ID 1 -> 0.1250
+2026-01-14 16:38:36 | INFO | P01 |   Token ID 2 -> 0.1250
+2026-01-14 16:38:36 | INFO | P01 |   Token ID 3 -> 0.1250
+2026-01-14 16:38:36 | INFO | P01 |   Token ID 4 -> 0.1250
+2026-01-14 16:38:36 | INFO | P01 |   Token ID 5 -> 0.1250
+2026-01-14 16:38:36 | INFO | P01 |   Token ID 6 -> 0.1250
+2026-01-14 16:38:36 | INFO | P01 |   Token ID 7 -> 0.1250
+2026-01-14 16:38:49 | INFO | P01 | === RUN START ===
+2026-01-14 16:38:49 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-14 16:38:49 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:38:49 | INFO | P01 | python=3.14.0
+2026-01-14 16:38:49 | INFO | P01 | os=Windows 11
+2026-01-14 16:38:49 | INFO | P01 | shell=powershell
+2026-01-14 16:38:49 | INFO | P01 | cwd=.
+2026-01-14 16:38:49 | INFO | P01 | github_actions=False
+2026-01-14 16:38:49 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 16:38:49 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 16:38:49 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 16:38:49 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 16:38:49 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 16:38:49 | INFO | P01 | Created 23 training pairs.
+2026-01-14 16:38:49 | INFO | P01 | Vocabulary size: 8
+2026-01-14 16:38:49 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 16:38:49 | INFO | P01 | Epoch 1/50 | avg_loss=2.045639 | accuracy=0.304
+2026-01-14 16:38:49 | INFO | P01 | Epoch 2/50 | avg_loss=1.900554 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 3/50 | avg_loss=1.771327 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 4/50 | avg_loss=1.657399 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 5/50 | avg_loss=1.557705 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 6/50 | avg_loss=1.470796 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 7/50 | avg_loss=1.395057 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 8/50 | avg_loss=1.328918 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 9/50 | avg_loss=1.270963 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 10/50 | avg_loss=1.219980 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 11/50 | avg_loss=1.174945 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 12/50 | avg_loss=1.135004 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 13/50 | avg_loss=1.099445 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 14/50 | avg_loss=1.067668 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 15/50 | avg_loss=1.039168 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 16/50 | avg_loss=1.013518 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 17/50 | avg_loss=0.990356 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 18/50 | avg_loss=0.969372 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 19/50 | avg_loss=0.950303 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 20/50 | avg_loss=0.932922 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 21/50 | avg_loss=0.917034 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 22/50 | avg_loss=0.902472 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 23/50 | avg_loss=0.889090 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 24/50 | avg_loss=0.876761 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 25/50 | avg_loss=0.865377 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 26/50 | avg_loss=0.854841 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 27/50 | avg_loss=0.845068 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 28/50 | avg_loss=0.835986 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 29/50 | avg_loss=0.827529 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 30/50 | avg_loss=0.819638 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 31/50 | avg_loss=0.812264 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 32/50 | avg_loss=0.805361 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 33/50 | avg_loss=0.798887 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 34/50 | avg_loss=0.792807 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 35/50 | avg_loss=0.787089 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 36/50 | avg_loss=0.781703 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 37/50 | avg_loss=0.776622 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 38/50 | avg_loss=0.771824 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 39/50 | avg_loss=0.767286 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 40/50 | avg_loss=0.762990 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 41/50 | avg_loss=0.758917 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 42/50 | avg_loss=0.755052 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 43/50 | avg_loss=0.751380 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 44/50 | avg_loss=0.747888 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 45/50 | avg_loss=0.744564 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 46/50 | avg_loss=0.741396 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 47/50 | avg_loss=0.738374 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 48/50 | avg_loss=0.735489 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 49/50 | avg_loss=0.732732 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Epoch 50/50 | avg_loss=0.730095 | accuracy=0.478
+2026-01-14 16:38:49 | INFO | P01 | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt-train\outputs\train_log.csv
+2026-01-14 16:38:49 | INFO | P01 | After training, most likely next token after 'cat' is 'lay' (id=2).
+2026-01-14 16:43:33 | INFO | P01 | === RUN START ===
+2026-01-14 16:43:33 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-14 16:43:33 | INFO | P01 | repo_dir=toy-gpt-train
+2026-01-14 16:43:33 | INFO | P01 | python=3.14.0
+2026-01-14 16:43:33 | INFO | P01 | os=Windows 11
+2026-01-14 16:43:33 | INFO | P01 | shell=powershell
+2026-01-14 16:43:33 | INFO | P01 | cwd=.
+2026-01-14 16:43:33 | INFO | P01 | github_actions=False
+2026-01-14 16:43:33 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 16:43:33 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 16:43:33 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 16:43:33 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 16:43:33 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 16:43:33 | INFO | P01 | Created 23 training pairs.
+2026-01-14 16:43:33 | INFO | P01 | Vocabulary size: 8
+2026-01-14 16:43:33 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 16:43:33 | INFO | P01 | Epoch 1/50 | avg_loss=2.045639 | accuracy=0.304
+2026-01-14 16:43:33 | INFO | P01 | Epoch 2/50 | avg_loss=1.900554 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 3/50 | avg_loss=1.771327 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 4/50 | avg_loss=1.657399 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 5/50 | avg_loss=1.557705 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 6/50 | avg_loss=1.470796 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 7/50 | avg_loss=1.395057 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 8/50 | avg_loss=1.328918 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 9/50 | avg_loss=1.270963 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 10/50 | avg_loss=1.219980 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 11/50 | avg_loss=1.174945 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 12/50 | avg_loss=1.135004 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 13/50 | avg_loss=1.099445 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 14/50 | avg_loss=1.067668 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 15/50 | avg_loss=1.039168 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 16/50 | avg_loss=1.013518 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 17/50 | avg_loss=0.990356 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 18/50 | avg_loss=0.969372 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 19/50 | avg_loss=0.950303 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 20/50 | avg_loss=0.932922 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 21/50 | avg_loss=0.917034 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 22/50 | avg_loss=0.902472 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 23/50 | avg_loss=0.889090 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 24/50 | avg_loss=0.876761 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 25/50 | avg_loss=0.865377 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 26/50 | avg_loss=0.854841 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 27/50 | avg_loss=0.845068 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 28/50 | avg_loss=0.835986 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 29/50 | avg_loss=0.827529 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 30/50 | avg_loss=0.819638 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 31/50 | avg_loss=0.812264 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 32/50 | avg_loss=0.805361 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 33/50 | avg_loss=0.798887 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 34/50 | avg_loss=0.792807 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 35/50 | avg_loss=0.787089 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 36/50 | avg_loss=0.781703 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 37/50 | avg_loss=0.776622 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 38/50 | avg_loss=0.771824 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 39/50 | avg_loss=0.767286 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 40/50 | avg_loss=0.762990 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 41/50 | avg_loss=0.758917 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 42/50 | avg_loss=0.755052 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 43/50 | avg_loss=0.751380 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 44/50 | avg_loss=0.747888 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 45/50 | avg_loss=0.744564 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 46/50 | avg_loss=0.741396 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 47/50 | avg_loss=0.738374 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 48/50 | avg_loss=0.735489 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 49/50 | avg_loss=0.732732 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Epoch 50/50 | avg_loss=0.730095 | accuracy=0.478
+2026-01-14 16:43:33 | INFO | P01 | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt-train\outputs\train_log.csv
+2026-01-14 16:43:33 | INFO | P01 | After training, most likely next token after 'cat' is 'lay' (id=2).
+2026-01-14 16:43:33 | INFO | P01 | Top next-token predictions after 'cat':
+2026-01-14 16:43:33 | INFO | P01 |   'lay' (id=2): 0.4183
+2026-01-14 16:43:33 | INFO | P01 |   'sat' (id=6): 0.3984
+2026-01-14 16:43:33 | INFO | P01 |   'cat' (id=0): 0.0306
+2026-01-14 20:21:16 | INFO | P01 | === RUN START ===
+2026-01-14 20:21:16 | INFO | P01 | project=Simple Tokenizer Demo
+2026-01-14 20:21:16 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-14 20:21:16 | INFO | P01 | python=3.14.0
+2026-01-14 20:21:16 | INFO | P01 | os=Windows 11
+2026-01-14 20:21:16 | INFO | P01 | shell=powershell
+2026-01-14 20:21:16 | INFO | P01 | cwd=.
+2026-01-14 20:21:16 | INFO | P01 | github_actions=False
+2026-01-14 20:21:16 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 20:21:16 | INFO | P01 | First 10 tokens: ['the', 'cat', 'sat', 'on', 'the', 'mat', 'the', 'dog', 'sat', 'on']
+2026-01-14 20:21:16 | INFO | P01 | Total number of tokens: 24
+2026-01-14 20:21:16 | INFO | P01 | Average token length: 2.83
+2026-01-14 20:35:14 | INFO | P01 | === RUN START ===
+2026-01-14 20:35:14 | INFO | P01 | project=Simple Tokenizer Demo
+2026-01-14 20:35:14 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-14 20:35:14 | INFO | P01 | python=3.14.0
+2026-01-14 20:35:14 | INFO | P01 | os=Windows 11
+2026-01-14 20:35:14 | INFO | P01 | shell=powershell
+2026-01-14 20:35:14 | INFO | P01 | cwd=.
+2026-01-14 20:35:14 | INFO | P01 | github_actions=False
+2026-01-14 20:35:14 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 20:35:14 | INFO | P01 | First 10 tokens: ['the', 'cat', 'sat', 'on', 'the', 'mat', 'the', 'dog', 'sat', 'on']
+2026-01-14 20:35:14 | INFO | P01 | Total number of tokens: 24
+2026-01-14 20:35:14 | INFO | P01 | Average token length: 2.83
+2026-01-14 20:35:29 | INFO | P01 | === RUN START ===
+2026-01-14 20:35:29 | INFO | P01 | project=Vocabulary Demo
+2026-01-14 20:35:29 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-14 20:35:29 | INFO | P01 | python=3.14.0
+2026-01-14 20:35:29 | INFO | P01 | os=Windows 11
+2026-01-14 20:35:29 | INFO | P01 | shell=powershell
+2026-01-14 20:35:29 | INFO | P01 | cwd=.
+2026-01-14 20:35:29 | INFO | P01 | github_actions=False
+2026-01-14 20:35:29 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 20:35:29 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 20:35:29 | INFO | P01 | Vocabulary size: 8
+2026-01-14 20:35:29 | INFO | P01 | Sample token: 'the' | ID: 7 | Frequency: 8
+2026-01-14 20:35:40 | INFO | P01 | === RUN START ===
+2026-01-14 20:35:40 | INFO | P01 | project=Simple Next-Token Model Demo
+2026-01-14 20:35:40 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-14 20:35:40 | INFO | P01 | python=3.14.0
+2026-01-14 20:35:40 | INFO | P01 | os=Windows 11
+2026-01-14 20:35:40 | INFO | P01 | shell=powershell
+2026-01-14 20:35:40 | INFO | P01 | cwd=.
+2026-01-14 20:35:40 | INFO | P01 | github_actions=False
+2026-01-14 20:35:40 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 20:35:40 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 20:35:40 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 20:35:40 | INFO | P01 | Input token ID: 0
+2026-01-14 20:35:40 | INFO | P01 | Output probabilities:
+2026-01-14 20:35:40 | INFO | P01 |   Token ID 0 -> 0.1250
+2026-01-14 20:35:40 | INFO | P01 |   Token ID 1 -> 0.1250
+2026-01-14 20:35:40 | INFO | P01 |   Token ID 2 -> 0.1250
+2026-01-14 20:35:40 | INFO | P01 |   Token ID 3 -> 0.1250
+2026-01-14 20:35:40 | INFO | P01 |   Token ID 4 -> 0.1250
+2026-01-14 20:35:40 | INFO | P01 |   Token ID 5 -> 0.1250
+2026-01-14 20:35:40 | INFO | P01 |   Token ID 6 -> 0.1250
+2026-01-14 20:35:40 | INFO | P01 |   Token ID 7 -> 0.1250
+2026-01-14 20:35:50 | INFO | P01 | === RUN START ===
+2026-01-14 20:35:50 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-14 20:35:50 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-14 20:35:50 | INFO | P01 | python=3.14.0
+2026-01-14 20:35:50 | INFO | P01 | os=Windows 11
+2026-01-14 20:35:50 | INFO | P01 | shell=powershell
+2026-01-14 20:35:50 | INFO | P01 | cwd=.
+2026-01-14 20:35:50 | INFO | P01 | github_actions=False
+2026-01-14 20:35:50 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 20:35:50 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 20:35:50 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 20:35:50 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 20:35:50 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 20:35:50 | INFO | P01 | Created 22 training pairs.
+2026-01-14 20:35:50 | INFO | P01 | Vocabulary size: 8
+2026-01-14 20:35:50 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 20:35:50 | INFO | P01 | Epoch 1/50 | avg_loss=2.064662 | accuracy=0.227
+2026-01-14 20:35:50 | INFO | P01 | Epoch 2/50 | avg_loss=1.885337 | accuracy=0.545
+2026-01-14 20:35:50 | INFO | P01 | Epoch 3/50 | avg_loss=1.740246 | accuracy=0.545
+2026-01-14 20:35:50 | INFO | P01 | Epoch 4/50 | avg_loss=1.621672 | accuracy=0.545
+2026-01-14 20:35:50 | INFO | P01 | Epoch 5/50 | avg_loss=1.523252 | accuracy=0.545
+2026-01-14 20:35:50 | INFO | P01 | Epoch 6/50 | avg_loss=1.440278 | accuracy=0.500
+2026-01-14 20:35:50 | INFO | P01 | Epoch 7/50 | avg_loss=1.369380 | accuracy=0.500
+2026-01-14 20:35:50 | INFO | P01 | Epoch 8/50 | avg_loss=1.308116 | accuracy=0.455
+2026-01-14 20:35:50 | INFO | P01 | Epoch 9/50 | avg_loss=1.254664 | accuracy=0.455
+2026-01-14 20:35:50 | INFO | P01 | Epoch 10/50 | avg_loss=1.207634 | accuracy=0.455
+2026-01-14 20:35:50 | INFO | P01 | Epoch 11/50 | avg_loss=1.165946 | accuracy=0.500
+2026-01-14 20:35:50 | INFO | P01 | Epoch 12/50 | avg_loss=1.128748 | accuracy=0.500
+2026-01-14 20:35:50 | INFO | P01 | Epoch 13/50 | avg_loss=1.095359 | accuracy=0.500
+2026-01-14 20:35:50 | INFO | P01 | Epoch 14/50 | avg_loss=1.065233 | accuracy=0.500
+2026-01-14 20:35:50 | INFO | P01 | Epoch 15/50 | avg_loss=1.037923 | accuracy=0.500
+2026-01-14 20:35:50 | INFO | P01 | Epoch 16/50 | avg_loss=1.013061 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 17/50 | avg_loss=0.990341 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 18/50 | avg_loss=0.969507 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 19/50 | avg_loss=0.950342 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 20/50 | avg_loss=0.932660 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 21/50 | avg_loss=0.916303 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 22/50 | avg_loss=0.901133 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 23/50 | avg_loss=0.887031 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 24/50 | avg_loss=0.873894 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 25/50 | avg_loss=0.861629 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 26/50 | avg_loss=0.850157 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 27/50 | avg_loss=0.839407 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 28/50 | avg_loss=0.829316 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 29/50 | avg_loss=0.819828 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 30/50 | avg_loss=0.810893 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 31/50 | avg_loss=0.802467 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 32/50 | avg_loss=0.794509 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 33/50 | avg_loss=0.786983 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 34/50 | avg_loss=0.779856 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 35/50 | avg_loss=0.773100 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 36/50 | avg_loss=0.766687 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 37/50 | avg_loss=0.760594 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 38/50 | avg_loss=0.754797 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 39/50 | avg_loss=0.749277 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 40/50 | avg_loss=0.744015 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 41/50 | avg_loss=0.738995 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 42/50 | avg_loss=0.734201 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 43/50 | avg_loss=0.729618 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 44/50 | avg_loss=0.725234 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 45/50 | avg_loss=0.721036 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 46/50 | avg_loss=0.717014 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 47/50 | avg_loss=0.713157 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 48/50 | avg_loss=0.709456 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 49/50 | avg_loss=0.705901 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Epoch 50/50 | avg_loss=0.702485 | accuracy=0.591
+2026-01-14 20:35:50 | INFO | P01 | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-14 20:35:50 | INFO | P01 | After training, most likely next token after ('the', 'cat') is 'lay' (id=2).
+2026-01-14 20:41:05 | INFO | P01 | === RUN START ===
+2026-01-14 20:41:05 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-14 20:41:05 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-14 20:41:05 | INFO | P01 | python=3.14.0
+2026-01-14 20:41:05 | INFO | P01 | os=Windows 11
+2026-01-14 20:41:05 | INFO | P01 | shell=powershell
+2026-01-14 20:41:05 | INFO | P01 | cwd=.
+2026-01-14 20:41:05 | INFO | P01 | github_actions=False
+2026-01-14 20:41:05 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 20:41:05 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 20:41:05 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 20:41:05 | INFO | P01 | Tokenizer initialized with 24 tokens.
+2026-01-14 20:41:05 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 20:41:05 | INFO | P01 | Created 22 training pairs.
+2026-01-14 20:41:05 | INFO | P01 | Vocabulary size: 8
+2026-01-14 20:41:05 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 20:41:05 | INFO | P01 | Epoch 1/50 | avg_loss=2.064662 | accuracy=0.227
+2026-01-14 20:41:05 | INFO | P01 | Epoch 2/50 | avg_loss=1.885337 | accuracy=0.545
+2026-01-14 20:41:05 | INFO | P01 | Epoch 3/50 | avg_loss=1.740246 | accuracy=0.545
+2026-01-14 20:41:05 | INFO | P01 | Epoch 4/50 | avg_loss=1.621672 | accuracy=0.545
+2026-01-14 20:41:05 | INFO | P01 | Epoch 5/50 | avg_loss=1.523252 | accuracy=0.545
+2026-01-14 20:41:05 | INFO | P01 | Epoch 6/50 | avg_loss=1.440278 | accuracy=0.500
+2026-01-14 20:41:05 | INFO | P01 | Epoch 7/50 | avg_loss=1.369380 | accuracy=0.500
+2026-01-14 20:41:05 | INFO | P01 | Epoch 8/50 | avg_loss=1.308116 | accuracy=0.455
+2026-01-14 20:41:05 | INFO | P01 | Epoch 9/50 | avg_loss=1.254664 | accuracy=0.455
+2026-01-14 20:41:05 | INFO | P01 | Epoch 10/50 | avg_loss=1.207634 | accuracy=0.455
+2026-01-14 20:41:05 | INFO | P01 | Epoch 11/50 | avg_loss=1.165946 | accuracy=0.500
+2026-01-14 20:41:05 | INFO | P01 | Epoch 12/50 | avg_loss=1.128748 | accuracy=0.500
+2026-01-14 20:41:05 | INFO | P01 | Epoch 13/50 | avg_loss=1.095359 | accuracy=0.500
+2026-01-14 20:41:05 | INFO | P01 | Epoch 14/50 | avg_loss=1.065233 | accuracy=0.500
+2026-01-14 20:41:05 | INFO | P01 | Epoch 15/50 | avg_loss=1.037923 | accuracy=0.500
+2026-01-14 20:41:05 | INFO | P01 | Epoch 16/50 | avg_loss=1.013061 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 17/50 | avg_loss=0.990341 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 18/50 | avg_loss=0.969507 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 19/50 | avg_loss=0.950342 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 20/50 | avg_loss=0.932660 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 21/50 | avg_loss=0.916303 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 22/50 | avg_loss=0.901133 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 23/50 | avg_loss=0.887031 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 24/50 | avg_loss=0.873894 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 25/50 | avg_loss=0.861629 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 26/50 | avg_loss=0.850157 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 27/50 | avg_loss=0.839407 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 28/50 | avg_loss=0.829316 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 29/50 | avg_loss=0.819828 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 30/50 | avg_loss=0.810893 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 31/50 | avg_loss=0.802467 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 32/50 | avg_loss=0.794509 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 33/50 | avg_loss=0.786983 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 34/50 | avg_loss=0.779856 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 35/50 | avg_loss=0.773100 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 36/50 | avg_loss=0.766687 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 37/50 | avg_loss=0.760594 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 38/50 | avg_loss=0.754797 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 39/50 | avg_loss=0.749277 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 40/50 | avg_loss=0.744015 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 41/50 | avg_loss=0.738995 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 42/50 | avg_loss=0.734201 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 43/50 | avg_loss=0.729618 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 44/50 | avg_loss=0.725234 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 45/50 | avg_loss=0.721036 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 46/50 | avg_loss=0.717014 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 47/50 | avg_loss=0.713157 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 48/50 | avg_loss=0.709456 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 49/50 | avg_loss=0.705901 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Epoch 50/50 | avg_loss=0.702485 | accuracy=0.591
+2026-01-14 20:41:05 | INFO | P01 | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-14 20:41:05 | INFO | P01 | After training, most likely next token after ('the', 'cat') is 'lay' (id=2).
+2026-01-14 20:41:05 | INFO | P01 | Top next-token predictions after ('the', 'cat'):
+2026-01-14 20:41:05 | INFO | P01 |   'lay' (id=2): 0.4459
+2026-01-14 20:41:05 | INFO | P01 |   'sat' (id=6): 0.3813
+2026-01-14 20:41:05 | INFO | P01 |   'on' (id=4): 0.0376
+2026-01-14 20:46:57 | INFO | P01 | === RUN START ===
+2026-01-14 20:46:57 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-14 20:46:57 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-14 20:46:57 | INFO | P01 | python=3.14.0
+2026-01-14 20:46:57 | INFO | P01 | os=Windows 11
+2026-01-14 20:46:57 | INFO | P01 | shell=powershell
+2026-01-14 20:46:57 | INFO | P01 | cwd=.
+2026-01-14 20:46:57 | INFO | P01 | github_actions=False
+2026-01-14 20:46:57 | INFO | P01 | Tokenizer initialized with 48 tokens.
+2026-01-14 20:46:57 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 20:46:57 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 20:46:57 | INFO | P01 | Tokenizer initialized with 48 tokens.
+2026-01-14 20:46:57 | INFO | P01 | Vocabulary initialized with 8 unique tokens.
+2026-01-14 20:46:57 | INFO | P01 | Created 46 training pairs.
+2026-01-14 20:46:57 | INFO | P01 | Vocabulary size: 8
+2026-01-14 20:46:57 | INFO | P01 | Model initialized with vocabulary size 8.
+2026-01-14 20:46:57 | INFO | P01 | Epoch 1/50 | avg_loss=1.950719 | accuracy=0.457
+2026-01-14 20:46:57 | INFO | P01 | Epoch 2/50 | avg_loss=1.630782 | accuracy=0.630
+2026-01-14 20:46:57 | INFO | P01 | Epoch 3/50 | avg_loss=1.422665 | accuracy=0.630
+2026-01-14 20:46:57 | INFO | P01 | Epoch 4/50 | avg_loss=1.276989 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 5/50 | avg_loss=1.169236 | accuracy=0.565
+2026-01-14 20:46:57 | INFO | P01 | Epoch 6/50 | avg_loss=1.086450 | accuracy=0.565
+2026-01-14 20:46:57 | INFO | P01 | Epoch 7/50 | avg_loss=1.021024 | accuracy=0.565
+2026-01-14 20:46:57 | INFO | P01 | Epoch 8/50 | avg_loss=0.968143 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 9/50 | avg_loss=0.924601 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 10/50 | avg_loss=0.888179 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 11/50 | avg_loss=0.857299 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 12/50 | avg_loss=0.830810 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 13/50 | avg_loss=0.807858 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 14/50 | avg_loss=0.787793 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 15/50 | avg_loss=0.770116 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 16/50 | avg_loss=0.754436 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 17/50 | avg_loss=0.740440 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 18/50 | avg_loss=0.727880 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 19/50 | avg_loss=0.716551 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 20/50 | avg_loss=0.706287 | accuracy=0.674
+2026-01-14 20:46:57 | INFO | P01 | Epoch 21/50 | avg_loss=0.696948 | accuracy=0.652
+2026-01-14 20:46:57 | INFO | P01 | Epoch 22/50 | avg_loss=0.688418 | accuracy=0.652
+2026-01-14 20:46:57 | INFO | P01 | Epoch 23/50 | avg_loss=0.680600 | accuracy=0.630
+2026-01-14 20:46:57 | INFO | P01 | Epoch 24/50 | avg_loss=0.673411 | accuracy=0.630
+2026-01-14 20:46:57 | INFO | P01 | Epoch 25/50 | avg_loss=0.666779 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 26/50 | avg_loss=0.660645 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 27/50 | avg_loss=0.654956 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 28/50 | avg_loss=0.649667 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 29/50 | avg_loss=0.644738 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 30/50 | avg_loss=0.640134 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 31/50 | avg_loss=0.635825 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 32/50 | avg_loss=0.631785 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 33/50 | avg_loss=0.627989 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 34/50 | avg_loss=0.624417 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 35/50 | avg_loss=0.621050 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 36/50 | avg_loss=0.617872 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 37/50 | avg_loss=0.614866 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 38/50 | avg_loss=0.612020 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 39/50 | avg_loss=0.609322 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 40/50 | avg_loss=0.606761 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 41/50 | avg_loss=0.604326 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 42/50 | avg_loss=0.602009 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 43/50 | avg_loss=0.599802 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 44/50 | avg_loss=0.597697 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 45/50 | avg_loss=0.595687 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 46/50 | avg_loss=0.593767 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 47/50 | avg_loss=0.591930 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 48/50 | avg_loss=0.590171 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 49/50 | avg_loss=0.588486 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Epoch 50/50 | avg_loss=0.586870 | accuracy=0.609
+2026-01-14 20:46:57 | INFO | P01 | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-14 20:46:57 | INFO | P01 | After training, most likely next token after ('the', 'cat') is 'sat' (id=6).
+2026-01-14 20:46:57 | INFO | P01 | Top next-token predictions after ('the', 'cat'):
+2026-01-14 20:46:57 | INFO | P01 |   'sat' (id=6): 0.6804
+2026-01-14 20:46:57 | INFO | P01 |   'lay' (id=2): 0.2297
+2026-01-14 20:46:57 | INFO | P01 |   'on' (id=4): 0.0196
+2026-01-16 08:35:00 | INFO | P01 | === RUN START ===
+2026-01-16 08:35:00 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-16 08:35:00 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-16 08:35:00 | INFO | P01 | python=3.14.0
+2026-01-16 08:35:00 | INFO | P01 | os=Windows 11
+2026-01-16 08:35:00 | INFO | P01 | shell=powershell
+2026-01-16 08:35:00 | INFO | P01 | cwd=.
+2026-01-16 08:35:00 | INFO | P01 | github_actions=False
+2026-01-16 08:35:00 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 08:35:00 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 08:35:00 | INFO | P01 | Created 22 training pairs.
+2026-01-16 08:35:00 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 08:35:00 | INFO | P01 | Epoch 1/50 | avg_loss=2.063953 | accuracy=0.227
+2026-01-16 08:35:00 | INFO | P01 | Epoch 2/50 | avg_loss=1.949229 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 3/50 | avg_loss=1.841472 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 4/50 | avg_loss=1.740749 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 5/50 | avg_loss=1.647012 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 6/50 | avg_loss=1.560108 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 7/50 | avg_loss=1.479793 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 8/50 | avg_loss=1.405753 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 9/50 | avg_loss=1.337621 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 10/50 | avg_loss=1.275000 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 11/50 | avg_loss=1.217477 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 12/50 | avg_loss=1.164640 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 13/50 | avg_loss=1.116089 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 14/50 | avg_loss=1.071445 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 15/50 | avg_loss=1.030353 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 16/50 | avg_loss=0.992489 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 17/50 | avg_loss=0.957554 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 18/50 | avg_loss=0.925279 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 19/50 | avg_loss=0.895421 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 20/50 | avg_loss=0.867761 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 21/50 | avg_loss=0.842103 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 22/50 | avg_loss=0.818269 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 23/50 | avg_loss=0.796101 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 24/50 | avg_loss=0.775454 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 25/50 | avg_loss=0.756201 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 26/50 | avg_loss=0.738224 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 27/50 | avg_loss=0.721419 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 28/50 | avg_loss=0.705690 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 29/50 | avg_loss=0.690950 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 30/50 | avg_loss=0.677122 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 31/50 | avg_loss=0.664134 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 32/50 | avg_loss=0.651922 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 33/50 | avg_loss=0.640427 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 34/50 | avg_loss=0.629594 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 35/50 | avg_loss=0.619376 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 36/50 | avg_loss=0.609727 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 37/50 | avg_loss=0.600605 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 38/50 | avg_loss=0.591974 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 39/50 | avg_loss=0.583800 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 40/50 | avg_loss=0.576050 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 41/50 | avg_loss=0.568696 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 42/50 | avg_loss=0.561711 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 43/50 | avg_loss=0.555070 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 44/50 | avg_loss=0.548752 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 45/50 | avg_loss=0.542735 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 46/50 | avg_loss=0.536999 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 47/50 | avg_loss=0.531529 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 48/50 | avg_loss=0.526306 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 49/50 | avg_loss=0.521316 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | P01 | Epoch 50/50 | avg_loss=0.516545 | accuracy=0.636
+2026-01-16 08:35:00 | INFO | IO | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-16 08:35:00 | INFO | IO | Wrote vocabulary to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\01_vocabulary.csv
+2026-01-16 08:35:00 | INFO | IO | Wrote model weights to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\02_model_weights.csv
+2026-01-16 08:35:00 | INFO | IO | Wrote meta to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\00_meta.json
+2026-01-16 08:35:00 | INFO | P01 | After training, most likely next token after 'the'|'cat' is 'lay' (ID: 2).
+2026-01-16 08:35:05 | INFO | P01 | === RUN START ===
+2026-01-16 08:35:05 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-16 08:35:05 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-16 08:35:05 | INFO | P01 | python=3.14.0
+2026-01-16 08:35:05 | INFO | P01 | os=Windows 11
+2026-01-16 08:35:05 | INFO | P01 | shell=powershell
+2026-01-16 08:35:05 | INFO | P01 | cwd=.
+2026-01-16 08:35:05 | INFO | P01 | github_actions=False
+2026-01-16 08:35:05 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 08:35:05 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 08:35:05 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 08:35:05 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 08:35:05 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 08:35:05 | INFO | P01 | Created 22 training pairs.
+2026-01-16 08:35:05 | INFO | P01 | Vocabulary size: 8
+2026-01-16 08:35:05 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 08:35:05 | INFO | P01 | Epoch 1/50 | avg_loss=2.063953 | accuracy=0.227
+2026-01-16 08:35:05 | INFO | P01 | Epoch 2/50 | avg_loss=1.949229 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 3/50 | avg_loss=1.841472 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 4/50 | avg_loss=1.740749 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 5/50 | avg_loss=1.647012 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 6/50 | avg_loss=1.560108 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 7/50 | avg_loss=1.479793 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 8/50 | avg_loss=1.405753 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 9/50 | avg_loss=1.337621 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 10/50 | avg_loss=1.275000 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 11/50 | avg_loss=1.217477 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 12/50 | avg_loss=1.164640 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 13/50 | avg_loss=1.116089 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 14/50 | avg_loss=1.071445 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 15/50 | avg_loss=1.030353 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 16/50 | avg_loss=0.992489 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 17/50 | avg_loss=0.957554 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 18/50 | avg_loss=0.925279 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 19/50 | avg_loss=0.895421 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 20/50 | avg_loss=0.867761 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 21/50 | avg_loss=0.842103 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 22/50 | avg_loss=0.818269 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 23/50 | avg_loss=0.796101 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 24/50 | avg_loss=0.775454 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 25/50 | avg_loss=0.756201 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 26/50 | avg_loss=0.738224 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 27/50 | avg_loss=0.721419 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 28/50 | avg_loss=0.705690 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 29/50 | avg_loss=0.690950 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 30/50 | avg_loss=0.677122 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 31/50 | avg_loss=0.664134 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 32/50 | avg_loss=0.651922 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 33/50 | avg_loss=0.640427 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 34/50 | avg_loss=0.629594 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 35/50 | avg_loss=0.619376 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 36/50 | avg_loss=0.609727 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 37/50 | avg_loss=0.600605 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 38/50 | avg_loss=0.591974 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 39/50 | avg_loss=0.583800 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 40/50 | avg_loss=0.576050 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 41/50 | avg_loss=0.568696 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 42/50 | avg_loss=0.561711 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 43/50 | avg_loss=0.555070 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 44/50 | avg_loss=0.548752 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 45/50 | avg_loss=0.542735 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 46/50 | avg_loss=0.536999 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 47/50 | avg_loss=0.531529 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 48/50 | avg_loss=0.526306 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 49/50 | avg_loss=0.521316 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | P01 | Epoch 50/50 | avg_loss=0.516545 | accuracy=0.636
+2026-01-16 08:35:05 | INFO | IO | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-16 08:36:43 | INFO | INFER | === RUN START ===
+2026-01-16 08:36:43 | INFO | INFER | project=Inference Demo: Load Artifacts and Generate Text
+2026-01-16 08:36:43 | INFO | INFER | repo_dir=train-200-bigram
+2026-01-16 08:36:43 | INFO | INFER | python=3.14.0
+2026-01-16 08:36:43 | INFO | INFER | os=Windows 11
+2026-01-16 08:36:43 | INFO | INFER | shell=powershell
+2026-01-16 08:36:43 | INFO | INFER | cwd=.
+2026-01-16 08:36:43 | INFO | INFER | github_actions=False
+2026-01-16 08:36:43 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 08:43:54 | INFO | P01 | === RUN START ===
+2026-01-16 08:43:54 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-16 08:43:54 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-16 08:43:54 | INFO | P01 | python=3.14.0
+2026-01-16 08:43:54 | INFO | P01 | os=Windows 11
+2026-01-16 08:43:54 | INFO | P01 | shell=powershell
+2026-01-16 08:43:54 | INFO | P01 | cwd=.
+2026-01-16 08:43:54 | INFO | P01 | github_actions=False
+2026-01-16 08:43:54 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 08:43:54 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 08:43:54 | INFO | P01 | Created 22 training pairs.
+2026-01-16 08:43:54 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 08:43:54 | INFO | P01 | Epoch 1/50 | avg_loss=2.063953 | accuracy=0.227
+2026-01-16 08:43:54 | INFO | P01 | Epoch 2/50 | avg_loss=1.949229 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 3/50 | avg_loss=1.841472 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 4/50 | avg_loss=1.740749 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 5/50 | avg_loss=1.647012 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 6/50 | avg_loss=1.560108 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 7/50 | avg_loss=1.479793 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 8/50 | avg_loss=1.405753 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 9/50 | avg_loss=1.337621 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 10/50 | avg_loss=1.275000 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 11/50 | avg_loss=1.217477 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 12/50 | avg_loss=1.164640 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 13/50 | avg_loss=1.116089 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 14/50 | avg_loss=1.071445 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 15/50 | avg_loss=1.030353 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 16/50 | avg_loss=0.992489 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 17/50 | avg_loss=0.957554 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 18/50 | avg_loss=0.925279 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 19/50 | avg_loss=0.895421 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 20/50 | avg_loss=0.867761 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 21/50 | avg_loss=0.842103 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 22/50 | avg_loss=0.818269 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 23/50 | avg_loss=0.796101 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 24/50 | avg_loss=0.775454 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 25/50 | avg_loss=0.756201 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 26/50 | avg_loss=0.738224 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 27/50 | avg_loss=0.721419 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 28/50 | avg_loss=0.705690 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 29/50 | avg_loss=0.690950 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 30/50 | avg_loss=0.677122 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 31/50 | avg_loss=0.664134 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 32/50 | avg_loss=0.651922 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 33/50 | avg_loss=0.640427 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 34/50 | avg_loss=0.629594 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 35/50 | avg_loss=0.619376 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 36/50 | avg_loss=0.609727 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 37/50 | avg_loss=0.600605 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 38/50 | avg_loss=0.591974 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 39/50 | avg_loss=0.583800 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 40/50 | avg_loss=0.576050 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 41/50 | avg_loss=0.568696 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 42/50 | avg_loss=0.561711 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 43/50 | avg_loss=0.555070 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 44/50 | avg_loss=0.548752 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 45/50 | avg_loss=0.542735 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 46/50 | avg_loss=0.536999 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 47/50 | avg_loss=0.531529 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 48/50 | avg_loss=0.526306 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 49/50 | avg_loss=0.521316 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | P01 | Epoch 50/50 | avg_loss=0.516545 | accuracy=0.636
+2026-01-16 08:43:54 | INFO | IO | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-16 08:43:54 | INFO | IO | Wrote vocabulary to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\01_vocabulary.csv
+2026-01-16 08:43:54 | INFO | IO | Wrote model weights to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\02_model_weights.csv
+2026-01-16 08:43:54 | INFO | IO | Wrote meta to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\00_meta.json
+2026-01-16 08:43:54 | INFO | P01 | After training, most likely next token after 'the'|'cat' is 'lay' (ID: 2).
+2026-01-16 09:21:48 | INFO | P01 | === RUN START ===
+2026-01-16 09:21:48 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-16 09:21:48 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-16 09:21:48 | INFO | P01 | python=3.14.0
+2026-01-16 09:21:48 | INFO | P01 | os=Windows 11
+2026-01-16 09:21:48 | INFO | P01 | shell=powershell
+2026-01-16 09:21:48 | INFO | P01 | cwd=.
+2026-01-16 09:21:48 | INFO | P01 | github_actions=False
+2026-01-16 09:21:48 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 09:21:48 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 09:21:48 | INFO | P01 | Created 22 training pairs.
+2026-01-16 09:21:48 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 09:21:48 | INFO | P01 | Epoch 1/50 | avg_loss=2.063953 | accuracy=0.227
+2026-01-16 09:21:48 | INFO | P01 | Epoch 2/50 | avg_loss=1.949229 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 3/50 | avg_loss=1.841472 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 4/50 | avg_loss=1.740749 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 5/50 | avg_loss=1.647012 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 6/50 | avg_loss=1.560108 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 7/50 | avg_loss=1.479793 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 8/50 | avg_loss=1.405753 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 9/50 | avg_loss=1.337621 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 10/50 | avg_loss=1.275000 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 11/50 | avg_loss=1.217477 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 12/50 | avg_loss=1.164640 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 13/50 | avg_loss=1.116089 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 14/50 | avg_loss=1.071445 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 15/50 | avg_loss=1.030353 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 16/50 | avg_loss=0.992489 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 17/50 | avg_loss=0.957554 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 18/50 | avg_loss=0.925279 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 19/50 | avg_loss=0.895421 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 20/50 | avg_loss=0.867761 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 21/50 | avg_loss=0.842103 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 22/50 | avg_loss=0.818269 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 23/50 | avg_loss=0.796101 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 24/50 | avg_loss=0.775454 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 25/50 | avg_loss=0.756201 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 26/50 | avg_loss=0.738224 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 27/50 | avg_loss=0.721419 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 28/50 | avg_loss=0.705690 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 29/50 | avg_loss=0.690950 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 30/50 | avg_loss=0.677122 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 31/50 | avg_loss=0.664134 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 32/50 | avg_loss=0.651922 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 33/50 | avg_loss=0.640427 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 34/50 | avg_loss=0.629594 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 35/50 | avg_loss=0.619376 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 36/50 | avg_loss=0.609727 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 37/50 | avg_loss=0.600605 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 38/50 | avg_loss=0.591974 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 39/50 | avg_loss=0.583800 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 40/50 | avg_loss=0.576050 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 41/50 | avg_loss=0.568696 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 42/50 | avg_loss=0.561711 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 43/50 | avg_loss=0.555070 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 44/50 | avg_loss=0.548752 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 45/50 | avg_loss=0.542735 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 46/50 | avg_loss=0.536999 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 47/50 | avg_loss=0.531529 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 48/50 | avg_loss=0.526306 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 49/50 | avg_loss=0.521316 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | P01 | Epoch 50/50 | avg_loss=0.516545 | accuracy=0.636
+2026-01-16 09:21:48 | INFO | IO | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-16 09:21:48 | INFO | IO | Wrote vocabulary to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\01_vocabulary.csv
+2026-01-16 09:21:48 | INFO | IO | Wrote model weights to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\02_model_weights.csv
+2026-01-16 09:21:48 | INFO | IO | Wrote meta to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\00_meta.json
+2026-01-16 09:21:48 | INFO | P01 | After training, most likely next token after 'the'|'cat' is 'lay' (ID: 2).
+2026-01-16 09:21:56 | INFO | INFER | === RUN START ===
+2026-01-16 09:21:56 | INFO | INFER | project=Inference Demo: Load Artifacts and Generate Text
+2026-01-16 09:21:56 | INFO | INFER | repo_dir=train-200-bigram
+2026-01-16 09:21:56 | INFO | INFER | python=3.14.0
+2026-01-16 09:21:56 | INFO | INFER | os=Windows 11
+2026-01-16 09:21:56 | INFO | INFER | shell=powershell
+2026-01-16 09:21:56 | INFO | INFER | cwd=.
+2026-01-16 09:21:56 | INFO | INFER | github_actions=False
+2026-01-16 09:21:56 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 09:21:56 | INFO | INFER | Loaded repo_name=train-200-bigram model_kind=bigram
+2026-01-16 09:21:56 | INFO | INFER | Vocab size: 8
+2026-01-16 09:21:56 | INFO | INFER | Start token: 'cat'
+2026-01-16 09:21:56 | INFO | INFER | Top next-token predictions after 'cat':
+2026-01-16 09:21:56 | INFO | INFER |   'cat' (ID 0): 0.1250
+2026-01-16 09:21:56 | INFO | INFER |   'dog' (ID 1): 0.1250
+2026-01-16 09:21:56 | INFO | INFER |   'lay' (ID 2): 0.1250
+2026-01-16 09:21:56 | INFO | INFER | Generated sequence:
+2026-01-16 09:21:56 | INFO | INFER |   cat cat cat cat cat cat cat cat cat cat cat
+2026-01-16 12:22:42 | INFO | P01 | === RUN START ===
+2026-01-16 12:22:42 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-16 12:22:42 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-16 12:22:42 | INFO | P01 | python=3.14.0
+2026-01-16 12:22:42 | INFO | P01 | os=Windows 11
+2026-01-16 12:22:42 | INFO | P01 | shell=powershell
+2026-01-16 12:22:42 | INFO | P01 | cwd=.
+2026-01-16 12:22:42 | INFO | P01 | github_actions=False
+2026-01-16 12:22:42 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 12:22:42 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 12:22:42 | INFO | P01 | Created 22 training pairs.
+2026-01-16 12:22:42 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 12:22:42 | INFO | P01 | Epoch 1/50 | avg_loss=2.063953 | accuracy=0.227
+2026-01-16 12:22:42 | INFO | P01 | Epoch 2/50 | avg_loss=1.949229 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 3/50 | avg_loss=1.841472 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 4/50 | avg_loss=1.740749 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 5/50 | avg_loss=1.647012 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 6/50 | avg_loss=1.560108 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 7/50 | avg_loss=1.479793 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 8/50 | avg_loss=1.405753 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 9/50 | avg_loss=1.337621 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 10/50 | avg_loss=1.275000 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 11/50 | avg_loss=1.217477 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 12/50 | avg_loss=1.164640 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 13/50 | avg_loss=1.116089 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 14/50 | avg_loss=1.071445 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 15/50 | avg_loss=1.030353 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 16/50 | avg_loss=0.992489 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 17/50 | avg_loss=0.957554 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 18/50 | avg_loss=0.925279 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 19/50 | avg_loss=0.895421 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 20/50 | avg_loss=0.867761 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 21/50 | avg_loss=0.842103 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 22/50 | avg_loss=0.818269 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 23/50 | avg_loss=0.796101 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 24/50 | avg_loss=0.775454 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 25/50 | avg_loss=0.756201 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 26/50 | avg_loss=0.738224 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 27/50 | avg_loss=0.721419 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 28/50 | avg_loss=0.705690 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 29/50 | avg_loss=0.690950 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 30/50 | avg_loss=0.677122 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 31/50 | avg_loss=0.664134 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 32/50 | avg_loss=0.651922 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 33/50 | avg_loss=0.640427 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 34/50 | avg_loss=0.629594 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 35/50 | avg_loss=0.619376 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 36/50 | avg_loss=0.609727 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 37/50 | avg_loss=0.600605 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 38/50 | avg_loss=0.591974 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 39/50 | avg_loss=0.583800 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 40/50 | avg_loss=0.576050 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 41/50 | avg_loss=0.568696 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 42/50 | avg_loss=0.561711 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 43/50 | avg_loss=0.555070 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 44/50 | avg_loss=0.548752 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 45/50 | avg_loss=0.542735 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 46/50 | avg_loss=0.536999 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 47/50 | avg_loss=0.531529 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 48/50 | avg_loss=0.526306 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 49/50 | avg_loss=0.521316 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | P01 | Epoch 50/50 | avg_loss=0.516545 | accuracy=0.636
+2026-01-16 12:22:42 | INFO | IO | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-16 12:22:42 | INFO | IO | Wrote vocabulary to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\01_vocabulary.csv
+2026-01-16 12:22:42 | INFO | IO | Wrote model weights to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\02_model_weights.csv
+2026-01-16 12:22:42 | INFO | IO | Wrote meta to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\00_meta.json
+2026-01-16 12:22:42 | INFO | P01 | After training, most likely next token after 'the'|'cat' is 'lay' (ID: 2).
+2026-01-16 12:22:45 | INFO | INFER | === RUN START ===
+2026-01-16 12:22:45 | INFO | INFER | project=Inference Demo: Load Artifacts and Generate Text
+2026-01-16 12:22:45 | INFO | INFER | repo_dir=train-200-bigram
+2026-01-16 12:22:45 | INFO | INFER | python=3.14.0
+2026-01-16 12:22:45 | INFO | INFER | os=Windows 11
+2026-01-16 12:22:45 | INFO | INFER | shell=powershell
+2026-01-16 12:22:45 | INFO | INFER | cwd=.
+2026-01-16 12:22:45 | INFO | INFER | github_actions=False
+2026-01-16 12:22:45 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 12:22:45 | INFO | INFER | Loaded repo_name=train-200-bigram model_kind=bigram
+2026-01-16 12:22:45 | INFO | INFER | Vocab size: 8
+2026-01-16 12:22:45 | INFO | INFER | Start token: 'cat'
+2026-01-16 12:22:45 | INFO | INFER | Top next-token predictions after 'cat':
+2026-01-16 12:22:45 | INFO | INFER |   'cat' (ID 0): 0.1250
+2026-01-16 12:22:45 | INFO | INFER |   'dog' (ID 1): 0.1250
+2026-01-16 12:22:45 | INFO | INFER |   'lay' (ID 2): 0.1250
+2026-01-16 12:22:45 | INFO | INFER | Generated sequence:
+2026-01-16 12:22:45 | INFO | INFER |   cat cat cat cat cat cat cat cat cat cat cat
+2026-01-16 12:50:00 | INFO | TOKEN | === RUN START ===
+2026-01-16 12:50:00 | INFO | TOKEN | project=Simple Tokenizer Demo
+2026-01-16 12:50:00 | INFO | TOKEN | repo_dir=train-200-bigram
+2026-01-16 12:50:00 | INFO | TOKEN | python=3.14.0
+2026-01-16 12:50:00 | INFO | TOKEN | os=Windows 11
+2026-01-16 12:50:00 | INFO | TOKEN | shell=powershell
+2026-01-16 12:50:00 | INFO | TOKEN | cwd=.
+2026-01-16 12:50:00 | INFO | TOKEN | github_actions=False
+2026-01-16 12:50:00 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 12:50:00 | INFO | TOKEN | First 10 tokens: ['the', 'cat', 'sat', 'on', 'the', 'mat', 'the', 'dog', 'sat', 'on']
+2026-01-16 12:50:00 | INFO | TOKEN | Total number of tokens: 24
+2026-01-16 12:50:00 | INFO | TOKEN | Average token length: 2.83
+2026-01-16 12:50:00 | INFO | VOCAB | === RUN START ===
+2026-01-16 12:50:00 | INFO | VOCAB | project=Vocabulary Demo
+2026-01-16 12:50:00 | INFO | VOCAB | repo_dir=train-200-bigram
+2026-01-16 12:50:00 | INFO | VOCAB | python=3.14.0
+2026-01-16 12:50:00 | INFO | VOCAB | os=Windows 11
+2026-01-16 12:50:00 | INFO | VOCAB | shell=powershell
+2026-01-16 12:50:00 | INFO | VOCAB | cwd=.
+2026-01-16 12:50:00 | INFO | VOCAB | github_actions=False
+2026-01-16 12:50:00 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 12:50:00 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 12:50:00 | INFO | VOCAB | Vocabulary size: 8
+2026-01-16 12:50:00 | INFO | VOCAB | Sample token: 'the' | ID: 7 | Frequency: 8
+2026-01-16 12:50:00 | INFO | MODEL | === RUN START ===
+2026-01-16 12:50:00 | INFO | MODEL | project=Simple Next-Token Model Demo (Bigram Context)
+2026-01-16 12:50:00 | INFO | MODEL | repo_dir=train-200-bigram
+2026-01-16 12:50:00 | INFO | MODEL | python=3.14.0
+2026-01-16 12:50:00 | INFO | MODEL | os=Windows 11
+2026-01-16 12:50:00 | INFO | MODEL | shell=powershell
+2026-01-16 12:50:00 | INFO | MODEL | cwd=.
+2026-01-16 12:50:00 | INFO | MODEL | github_actions=False
+2026-01-16 12:50:00 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 12:50:00 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 12:50:00 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 12:50:00 | INFO | MODEL | Input tokens: 'the' (ID 7), 'cat' (ID 0)
+2026-01-16 12:50:00 | INFO | MODEL | Output probabilities for next token:
+2026-01-16 12:50:00 | INFO | MODEL |   'cat' (ID 0) -> 0.1250
+2026-01-16 12:50:00 | INFO | MODEL |   'dog' (ID 1) -> 0.1250
+2026-01-16 12:50:00 | INFO | MODEL |   'lay' (ID 2) -> 0.1250
+2026-01-16 12:50:00 | INFO | MODEL |   'mat' (ID 3) -> 0.1250
+2026-01-16 12:50:00 | INFO | MODEL |   'on' (ID 4) -> 0.1250
+2026-01-16 12:50:00 | INFO | MODEL |   'rug' (ID 5) -> 0.1250
+2026-01-16 12:50:00 | INFO | MODEL |   'sat' (ID 6) -> 0.1250
+2026-01-16 12:50:00 | INFO | MODEL |   'the' (ID 7) -> 0.1250
+2026-01-16 12:50:00 | INFO | P01 | === RUN START ===
+2026-01-16 12:50:00 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-16 12:50:00 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-16 12:50:00 | INFO | P01 | python=3.14.0
+2026-01-16 12:50:00 | INFO | P01 | os=Windows 11
+2026-01-16 12:50:00 | INFO | P01 | shell=powershell
+2026-01-16 12:50:00 | INFO | P01 | cwd=.
+2026-01-16 12:50:00 | INFO | P01 | github_actions=False
+2026-01-16 12:50:00 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 12:50:00 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 12:50:00 | INFO | P01 | Created 22 training pairs.
+2026-01-16 12:50:00 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 12:50:00 | INFO | P01 | Epoch 1/50 | avg_loss=2.063953 | accuracy=0.227
+2026-01-16 12:50:00 | INFO | P01 | Epoch 2/50 | avg_loss=1.949229 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 3/50 | avg_loss=1.841472 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 4/50 | avg_loss=1.740749 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 5/50 | avg_loss=1.647012 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 6/50 | avg_loss=1.560108 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 7/50 | avg_loss=1.479793 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 8/50 | avg_loss=1.405753 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 9/50 | avg_loss=1.337621 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 10/50 | avg_loss=1.275000 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 11/50 | avg_loss=1.217477 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 12/50 | avg_loss=1.164640 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 13/50 | avg_loss=1.116089 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 14/50 | avg_loss=1.071445 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 15/50 | avg_loss=1.030353 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 16/50 | avg_loss=0.992489 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 17/50 | avg_loss=0.957554 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 18/50 | avg_loss=0.925279 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 19/50 | avg_loss=0.895421 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 20/50 | avg_loss=0.867761 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 21/50 | avg_loss=0.842103 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 22/50 | avg_loss=0.818269 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 23/50 | avg_loss=0.796101 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 24/50 | avg_loss=0.775454 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 25/50 | avg_loss=0.756201 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 26/50 | avg_loss=0.738224 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 27/50 | avg_loss=0.721419 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 28/50 | avg_loss=0.705690 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 29/50 | avg_loss=0.690950 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 30/50 | avg_loss=0.677122 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 31/50 | avg_loss=0.664134 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 32/50 | avg_loss=0.651922 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 33/50 | avg_loss=0.640427 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 34/50 | avg_loss=0.629594 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 35/50 | avg_loss=0.619376 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 36/50 | avg_loss=0.609727 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 37/50 | avg_loss=0.600605 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 38/50 | avg_loss=0.591974 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 39/50 | avg_loss=0.583800 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 40/50 | avg_loss=0.576050 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 41/50 | avg_loss=0.568696 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 42/50 | avg_loss=0.561711 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 43/50 | avg_loss=0.555070 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 44/50 | avg_loss=0.548752 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 45/50 | avg_loss=0.542735 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 46/50 | avg_loss=0.536999 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 47/50 | avg_loss=0.531529 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 48/50 | avg_loss=0.526306 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 49/50 | avg_loss=0.521316 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | P01 | Epoch 50/50 | avg_loss=0.516545 | accuracy=0.636
+2026-01-16 12:50:00 | INFO | IO | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-16 12:50:00 | INFO | IO | Wrote vocabulary to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\01_vocabulary.csv
+2026-01-16 12:50:00 | INFO | IO | Wrote model weights to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\02_model_weights.csv
+2026-01-16 12:50:00 | INFO | IO | Wrote meta to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\00_meta.json
+2026-01-16 12:50:00 | INFO | P01 | After training, most likely next token after 'the'|'cat' is 'lay' (ID: 2).
+2026-01-16 12:50:00 | INFO | INFER | === RUN START ===
+2026-01-16 12:50:00 | INFO | INFER | project=Inference Demo: Load Artifacts and Generate Text
+2026-01-16 12:50:00 | INFO | INFER | repo_dir=train-200-bigram
+2026-01-16 12:50:00 | INFO | INFER | python=3.14.0
+2026-01-16 12:50:00 | INFO | INFER | os=Windows 11
+2026-01-16 12:50:00 | INFO | INFER | shell=powershell
+2026-01-16 12:50:00 | INFO | INFER | cwd=.
+2026-01-16 12:50:00 | INFO | INFER | github_actions=False
+2026-01-16 12:50:00 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 13:15:42 | INFO | TOKEN | === RUN START ===
+2026-01-16 13:15:42 | INFO | TOKEN | project=Simple Tokenizer Demo
+2026-01-16 13:15:42 | INFO | TOKEN | repo_dir=train-200-bigram
+2026-01-16 13:15:42 | INFO | TOKEN | python=3.14.0
+2026-01-16 13:15:42 | INFO | TOKEN | os=Windows 11
+2026-01-16 13:15:42 | INFO | TOKEN | shell=powershell
+2026-01-16 13:15:42 | INFO | TOKEN | cwd=.
+2026-01-16 13:15:42 | INFO | TOKEN | github_actions=False
+2026-01-16 13:15:42 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 13:15:42 | INFO | TOKEN | First 10 tokens: ['the', 'cat', 'sat', 'on', 'the', 'mat', 'the', 'dog', 'sat', 'on']
+2026-01-16 13:15:42 | INFO | TOKEN | Total number of tokens: 24
+2026-01-16 13:15:42 | INFO | TOKEN | Average token length: 2.83
+2026-01-16 13:15:42 | INFO | VOCAB | === RUN START ===
+2026-01-16 13:15:42 | INFO | VOCAB | project=Vocabulary Demo
+2026-01-16 13:15:42 | INFO | VOCAB | repo_dir=train-200-bigram
+2026-01-16 13:15:42 | INFO | VOCAB | python=3.14.0
+2026-01-16 13:15:42 | INFO | VOCAB | os=Windows 11
+2026-01-16 13:15:42 | INFO | VOCAB | shell=powershell
+2026-01-16 13:15:42 | INFO | VOCAB | cwd=.
+2026-01-16 13:15:42 | INFO | VOCAB | github_actions=False
+2026-01-16 13:15:42 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 13:15:42 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 13:15:42 | INFO | VOCAB | Vocabulary size: 8
+2026-01-16 13:15:42 | INFO | VOCAB | Sample token: 'the' | ID: 7 | Frequency: 8
+2026-01-16 13:15:42 | INFO | MODEL | === RUN START ===
+2026-01-16 13:15:42 | INFO | MODEL | project=Simple Next-Token Model Demo (Bigram Context)
+2026-01-16 13:15:42 | INFO | MODEL | repo_dir=train-200-bigram
+2026-01-16 13:15:42 | INFO | MODEL | python=3.14.0
+2026-01-16 13:15:42 | INFO | MODEL | os=Windows 11
+2026-01-16 13:15:42 | INFO | MODEL | shell=powershell
+2026-01-16 13:15:42 | INFO | MODEL | cwd=.
+2026-01-16 13:15:42 | INFO | MODEL | github_actions=False
+2026-01-16 13:15:42 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 13:15:42 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 13:15:42 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 13:15:42 | INFO | MODEL | Input tokens: 'the' (ID 7), 'cat' (ID 0)
+2026-01-16 13:15:42 | INFO | MODEL | Output probabilities for next token:
+2026-01-16 13:15:42 | INFO | MODEL |   'cat' (ID 0) -> 0.1250
+2026-01-16 13:15:42 | INFO | MODEL |   'dog' (ID 1) -> 0.1250
+2026-01-16 13:15:42 | INFO | MODEL |   'lay' (ID 2) -> 0.1250
+2026-01-16 13:15:42 | INFO | MODEL |   'mat' (ID 3) -> 0.1250
+2026-01-16 13:15:42 | INFO | MODEL |   'on' (ID 4) -> 0.1250
+2026-01-16 13:15:42 | INFO | MODEL |   'rug' (ID 5) -> 0.1250
+2026-01-16 13:15:42 | INFO | MODEL |   'sat' (ID 6) -> 0.1250
+2026-01-16 13:15:42 | INFO | MODEL |   'the' (ID 7) -> 0.1250
+2026-01-16 13:15:42 | INFO | P01 | === RUN START ===
+2026-01-16 13:15:42 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-16 13:15:42 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-16 13:15:42 | INFO | P01 | python=3.14.0
+2026-01-16 13:15:42 | INFO | P01 | os=Windows 11
+2026-01-16 13:15:42 | INFO | P01 | shell=powershell
+2026-01-16 13:15:42 | INFO | P01 | cwd=.
+2026-01-16 13:15:42 | INFO | P01 | github_actions=False
+2026-01-16 13:15:42 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 13:15:42 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 13:15:42 | INFO | P01 | Created 22 training pairs.
+2026-01-16 13:15:42 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 13:15:42 | INFO | P01 | Epoch 1/50 | avg_loss=2.063953 | accuracy=0.227
+2026-01-16 13:15:42 | INFO | P01 | Epoch 2/50 | avg_loss=1.949229 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 3/50 | avg_loss=1.841472 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 4/50 | avg_loss=1.740749 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 5/50 | avg_loss=1.647012 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 6/50 | avg_loss=1.560108 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 7/50 | avg_loss=1.479793 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 8/50 | avg_loss=1.405753 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 9/50 | avg_loss=1.337621 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 10/50 | avg_loss=1.275000 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 11/50 | avg_loss=1.217477 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 12/50 | avg_loss=1.164640 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 13/50 | avg_loss=1.116089 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 14/50 | avg_loss=1.071445 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 15/50 | avg_loss=1.030353 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 16/50 | avg_loss=0.992489 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 17/50 | avg_loss=0.957554 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 18/50 | avg_loss=0.925279 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 19/50 | avg_loss=0.895421 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 20/50 | avg_loss=0.867761 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 21/50 | avg_loss=0.842103 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 22/50 | avg_loss=0.818269 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 23/50 | avg_loss=0.796101 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 24/50 | avg_loss=0.775454 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 25/50 | avg_loss=0.756201 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 26/50 | avg_loss=0.738224 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 27/50 | avg_loss=0.721419 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 28/50 | avg_loss=0.705690 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 29/50 | avg_loss=0.690950 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 30/50 | avg_loss=0.677122 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 31/50 | avg_loss=0.664134 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 32/50 | avg_loss=0.651922 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 33/50 | avg_loss=0.640427 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 34/50 | avg_loss=0.629594 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 35/50 | avg_loss=0.619376 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 36/50 | avg_loss=0.609727 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 37/50 | avg_loss=0.600605 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 38/50 | avg_loss=0.591974 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 39/50 | avg_loss=0.583800 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 40/50 | avg_loss=0.576050 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 41/50 | avg_loss=0.568696 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 42/50 | avg_loss=0.561711 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 43/50 | avg_loss=0.555070 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 44/50 | avg_loss=0.548752 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 45/50 | avg_loss=0.542735 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 46/50 | avg_loss=0.536999 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 47/50 | avg_loss=0.531529 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 48/50 | avg_loss=0.526306 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 49/50 | avg_loss=0.521316 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | P01 | Epoch 50/50 | avg_loss=0.516545 | accuracy=0.636
+2026-01-16 13:15:42 | INFO | IO | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-16 13:15:42 | INFO | IO | Wrote vocabulary to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\01_vocabulary.csv
+2026-01-16 13:15:42 | INFO | IO | Wrote model weights to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\02_model_weights.csv
+2026-01-16 13:15:42 | INFO | IO | Wrote meta to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\00_meta.json
+2026-01-16 13:15:42 | INFO | P01 | After training, most likely next token after 'the'|'cat' is 'lay' (ID: 2).
+2026-01-16 13:15:42 | INFO | INFER | === RUN START ===
+2026-01-16 13:15:42 | INFO | INFER | project=Inference Demo: Load Artifacts and Generate Text
+2026-01-16 13:15:42 | INFO | INFER | repo_dir=train-200-bigram
+2026-01-16 13:15:42 | INFO | INFER | python=3.14.0
+2026-01-16 13:15:42 | INFO | INFER | os=Windows 11
+2026-01-16 13:15:42 | INFO | INFER | shell=powershell
+2026-01-16 13:15:42 | INFO | INFER | cwd=.
+2026-01-16 13:15:42 | INFO | INFER | github_actions=False
+2026-01-16 13:15:42 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 13:15:42 | INFO | INFER | Loaded repo_name=train-200-bigram model_kind=bigram
+2026-01-16 13:15:42 | INFO | INFER | Vocab size: 8
+2026-01-16 13:15:42 | INFO | INFER | Start token: 'cat'
+2026-01-16 13:15:42 | INFO | INFER | Top next-token predictions after 'cat':
+2026-01-16 13:15:42 | INFO | INFER |   'cat' (ID 0): 0.1250
+2026-01-16 13:15:42 | INFO | INFER |   'dog' (ID 1): 0.1250
+2026-01-16 13:15:42 | INFO | INFER |   'lay' (ID 2): 0.1250
+2026-01-16 13:15:42 | INFO | INFER | Generated sequence:
+2026-01-16 13:15:42 | INFO | INFER |   cat cat cat cat cat cat cat cat cat cat cat
+2026-01-16 14:57:07 | INFO | TOKEN | === RUN START ===
+2026-01-16 14:57:07 | INFO | TOKEN | project=Simple Tokenizer Demo
+2026-01-16 14:57:07 | INFO | TOKEN | repo_dir=train-200-bigram
+2026-01-16 14:57:07 | INFO | TOKEN | python=3.14.0
+2026-01-16 14:57:07 | INFO | TOKEN | os=Windows 11
+2026-01-16 14:57:07 | INFO | TOKEN | shell=powershell
+2026-01-16 14:57:07 | INFO | TOKEN | cwd=.
+2026-01-16 14:57:07 | INFO | TOKEN | github_actions=False
+2026-01-16 14:57:07 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 14:57:07 | INFO | TOKEN | First 10 tokens: ['the', 'cat', 'sat', 'on', 'the', 'mat', 'the', 'dog', 'sat', 'on']
+2026-01-16 14:57:07 | INFO | TOKEN | Total number of tokens: 24
+2026-01-16 14:57:07 | INFO | TOKEN | Average token length: 2.83
+2026-01-16 14:57:07 | INFO | VOCAB | === RUN START ===
+2026-01-16 14:57:07 | INFO | VOCAB | project=Vocabulary Demo
+2026-01-16 14:57:07 | INFO | VOCAB | repo_dir=train-200-bigram
+2026-01-16 14:57:07 | INFO | VOCAB | python=3.14.0
+2026-01-16 14:57:07 | INFO | VOCAB | os=Windows 11
+2026-01-16 14:57:07 | INFO | VOCAB | shell=powershell
+2026-01-16 14:57:07 | INFO | VOCAB | cwd=.
+2026-01-16 14:57:07 | INFO | VOCAB | github_actions=False
+2026-01-16 14:57:07 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 14:57:07 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 14:57:07 | INFO | VOCAB | Vocabulary size: 8
+2026-01-16 14:57:07 | INFO | VOCAB | Sample token: 'the' | ID: 7 | Frequency: 8
+2026-01-16 14:57:07 | INFO | MODEL | === RUN START ===
+2026-01-16 14:57:07 | INFO | MODEL | project=Simple Next-Token Model Demo (Bigram Context)
+2026-01-16 14:57:07 | INFO | MODEL | repo_dir=train-200-bigram
+2026-01-16 14:57:07 | INFO | MODEL | python=3.14.0
+2026-01-16 14:57:07 | INFO | MODEL | os=Windows 11
+2026-01-16 14:57:07 | INFO | MODEL | shell=powershell
+2026-01-16 14:57:07 | INFO | MODEL | cwd=.
+2026-01-16 14:57:07 | INFO | MODEL | github_actions=False
+2026-01-16 14:57:07 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 14:57:07 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 14:57:07 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 14:57:07 | INFO | MODEL | Input tokens: 'the' (ID 7), 'cat' (ID 0)
+2026-01-16 14:57:07 | INFO | MODEL | Output probabilities for next token:
+2026-01-16 14:57:07 | INFO | MODEL |   'cat' (ID 0) -> 0.1250
+2026-01-16 14:57:07 | INFO | MODEL |   'dog' (ID 1) -> 0.1250
+2026-01-16 14:57:07 | INFO | MODEL |   'lay' (ID 2) -> 0.1250
+2026-01-16 14:57:07 | INFO | MODEL |   'mat' (ID 3) -> 0.1250
+2026-01-16 14:57:07 | INFO | MODEL |   'on' (ID 4) -> 0.1250
+2026-01-16 14:57:07 | INFO | MODEL |   'rug' (ID 5) -> 0.1250
+2026-01-16 14:57:07 | INFO | MODEL |   'sat' (ID 6) -> 0.1250
+2026-01-16 14:57:07 | INFO | MODEL |   'the' (ID 7) -> 0.1250
+2026-01-16 14:57:07 | INFO | P01 | === RUN START ===
+2026-01-16 14:57:07 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-16 14:57:07 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-16 14:57:07 | INFO | P01 | python=3.14.0
+2026-01-16 14:57:07 | INFO | P01 | os=Windows 11
+2026-01-16 14:57:07 | INFO | P01 | shell=powershell
+2026-01-16 14:57:07 | INFO | P01 | cwd=.
+2026-01-16 14:57:07 | INFO | P01 | github_actions=False
+2026-01-16 14:57:07 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 14:57:07 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 14:57:07 | INFO | P01 | Created 22 training pairs.
+2026-01-16 14:57:07 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 14:57:07 | INFO | P01 | Epoch 1/50 | avg_loss=2.063953 | accuracy=0.227
+2026-01-16 14:57:07 | INFO | P01 | Epoch 2/50 | avg_loss=1.949229 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 3/50 | avg_loss=1.841472 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 4/50 | avg_loss=1.740749 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 5/50 | avg_loss=1.647012 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 6/50 | avg_loss=1.560108 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 7/50 | avg_loss=1.479793 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 8/50 | avg_loss=1.405753 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 9/50 | avg_loss=1.337621 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 10/50 | avg_loss=1.275000 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 11/50 | avg_loss=1.217477 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 12/50 | avg_loss=1.164640 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 13/50 | avg_loss=1.116089 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 14/50 | avg_loss=1.071445 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 15/50 | avg_loss=1.030353 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 16/50 | avg_loss=0.992489 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 17/50 | avg_loss=0.957554 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 18/50 | avg_loss=0.925279 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 19/50 | avg_loss=0.895421 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 20/50 | avg_loss=0.867761 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 21/50 | avg_loss=0.842103 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 22/50 | avg_loss=0.818269 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 23/50 | avg_loss=0.796101 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 24/50 | avg_loss=0.775454 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 25/50 | avg_loss=0.756201 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 26/50 | avg_loss=0.738224 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 27/50 | avg_loss=0.721419 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 28/50 | avg_loss=0.705690 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 29/50 | avg_loss=0.690950 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 30/50 | avg_loss=0.677122 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 31/50 | avg_loss=0.664134 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 32/50 | avg_loss=0.651922 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 33/50 | avg_loss=0.640427 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 34/50 | avg_loss=0.629594 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 35/50 | avg_loss=0.619376 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 36/50 | avg_loss=0.609727 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 37/50 | avg_loss=0.600605 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 38/50 | avg_loss=0.591974 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 39/50 | avg_loss=0.583800 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 40/50 | avg_loss=0.576050 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 41/50 | avg_loss=0.568696 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 42/50 | avg_loss=0.561711 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 43/50 | avg_loss=0.555070 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 44/50 | avg_loss=0.548752 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 45/50 | avg_loss=0.542735 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 46/50 | avg_loss=0.536999 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 47/50 | avg_loss=0.531529 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 48/50 | avg_loss=0.526306 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 49/50 | avg_loss=0.521316 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | P01 | Epoch 50/50 | avg_loss=0.516545 | accuracy=0.636
+2026-01-16 14:57:07 | INFO | IO | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-16 14:57:07 | INFO | IO | Wrote vocabulary to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\01_vocabulary.csv
+2026-01-16 14:57:07 | INFO | IO | Wrote model weights to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\02_model_weights.csv
+2026-01-16 14:57:07 | INFO | IO | Wrote meta to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\00_meta.json
+2026-01-16 14:57:07 | INFO | P01 | After training, most likely next token after 'the'|'cat' is 'lay' (ID: 2).
+2026-01-16 14:58:23 | INFO | TOKEN | === RUN START ===
+2026-01-16 14:58:23 | INFO | TOKEN | project=Simple Tokenizer Demo
+2026-01-16 14:58:23 | INFO | TOKEN | repo_dir=train-200-bigram
+2026-01-16 14:58:23 | INFO | TOKEN | python=3.14.0
+2026-01-16 14:58:23 | INFO | TOKEN | os=Windows 11
+2026-01-16 14:58:23 | INFO | TOKEN | shell=powershell
+2026-01-16 14:58:23 | INFO | TOKEN | cwd=.
+2026-01-16 14:58:23 | INFO | TOKEN | github_actions=False
+2026-01-16 14:58:23 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 14:58:23 | INFO | TOKEN | First 10 tokens: ['the', 'cat', 'sat', 'on', 'the', 'mat', 'the', 'dog', 'sat', 'on']
+2026-01-16 14:58:23 | INFO | TOKEN | Total number of tokens: 24
+2026-01-16 14:58:23 | INFO | TOKEN | Average token length: 2.83
+2026-01-16 14:58:23 | INFO | VOCAB | === RUN START ===
+2026-01-16 14:58:23 | INFO | VOCAB | project=Vocabulary Demo
+2026-01-16 14:58:23 | INFO | VOCAB | repo_dir=train-200-bigram
+2026-01-16 14:58:23 | INFO | VOCAB | python=3.14.0
+2026-01-16 14:58:23 | INFO | VOCAB | os=Windows 11
+2026-01-16 14:58:23 | INFO | VOCAB | shell=powershell
+2026-01-16 14:58:23 | INFO | VOCAB | cwd=.
+2026-01-16 14:58:23 | INFO | VOCAB | github_actions=False
+2026-01-16 14:58:23 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 14:58:23 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 14:58:23 | INFO | VOCAB | Vocabulary size: 8
+2026-01-16 14:58:23 | INFO | VOCAB | Sample token: 'the' | ID: 7 | Frequency: 8
+2026-01-16 14:58:23 | INFO | MODEL | === RUN START ===
+2026-01-16 14:58:23 | INFO | MODEL | project=Simple Next-Token Model Demo (Bigram Context)
+2026-01-16 14:58:23 | INFO | MODEL | repo_dir=train-200-bigram
+2026-01-16 14:58:23 | INFO | MODEL | python=3.14.0
+2026-01-16 14:58:23 | INFO | MODEL | os=Windows 11
+2026-01-16 14:58:23 | INFO | MODEL | shell=powershell
+2026-01-16 14:58:23 | INFO | MODEL | cwd=.
+2026-01-16 14:58:23 | INFO | MODEL | github_actions=False
+2026-01-16 14:58:23 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 14:58:23 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 14:58:23 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 14:58:23 | INFO | MODEL | Input tokens: 'the' (ID 7), 'cat' (ID 0)
+2026-01-16 14:58:23 | INFO | MODEL | Output probabilities for next token:
+2026-01-16 14:58:23 | INFO | MODEL |   'cat' (ID 0) -> 0.1250
+2026-01-16 14:58:23 | INFO | MODEL |   'dog' (ID 1) -> 0.1250
+2026-01-16 14:58:23 | INFO | MODEL |   'lay' (ID 2) -> 0.1250
+2026-01-16 14:58:23 | INFO | MODEL |   'mat' (ID 3) -> 0.1250
+2026-01-16 14:58:23 | INFO | MODEL |   'on' (ID 4) -> 0.1250
+2026-01-16 14:58:23 | INFO | MODEL |   'rug' (ID 5) -> 0.1250
+2026-01-16 14:58:23 | INFO | MODEL |   'sat' (ID 6) -> 0.1250
+2026-01-16 14:58:23 | INFO | MODEL |   'the' (ID 7) -> 0.1250
+2026-01-16 14:58:23 | INFO | P01 | === RUN START ===
+2026-01-16 14:58:23 | INFO | P01 | project=Training Demo: Next-Token Softmax Regression
+2026-01-16 14:58:23 | INFO | P01 | repo_dir=train-200-bigram
+2026-01-16 14:58:23 | INFO | P01 | python=3.14.0
+2026-01-16 14:58:23 | INFO | P01 | os=Windows 11
+2026-01-16 14:58:23 | INFO | P01 | shell=powershell
+2026-01-16 14:58:23 | INFO | P01 | cwd=.
+2026-01-16 14:58:23 | INFO | P01 | github_actions=False
+2026-01-16 14:58:23 | INFO | TOKEN | Tokenizer initialized with 24 tokens.
+2026-01-16 14:58:23 | INFO | VOCAB | Vocabulary initialized with 8 unique tokens.
+2026-01-16 14:58:23 | INFO | P01 | Created 22 training pairs.
+2026-01-16 14:58:23 | INFO | MODEL | Model initialized with vocabulary size 8 (bigram).
+2026-01-16 14:58:23 | INFO | P01 | Epoch 1/50 | avg_loss=2.063953 | accuracy=0.227
+2026-01-16 14:58:23 | INFO | P01 | Epoch 2/50 | avg_loss=1.949229 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 3/50 | avg_loss=1.841472 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 4/50 | avg_loss=1.740749 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 5/50 | avg_loss=1.647012 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 6/50 | avg_loss=1.560108 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 7/50 | avg_loss=1.479793 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 8/50 | avg_loss=1.405753 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 9/50 | avg_loss=1.337621 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 10/50 | avg_loss=1.275000 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 11/50 | avg_loss=1.217477 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 12/50 | avg_loss=1.164640 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 13/50 | avg_loss=1.116089 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 14/50 | avg_loss=1.071445 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 15/50 | avg_loss=1.030353 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 16/50 | avg_loss=0.992489 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 17/50 | avg_loss=0.957554 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 18/50 | avg_loss=0.925279 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 19/50 | avg_loss=0.895421 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 20/50 | avg_loss=0.867761 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 21/50 | avg_loss=0.842103 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 22/50 | avg_loss=0.818269 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 23/50 | avg_loss=0.796101 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 24/50 | avg_loss=0.775454 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 25/50 | avg_loss=0.756201 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 26/50 | avg_loss=0.738224 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 27/50 | avg_loss=0.721419 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 28/50 | avg_loss=0.705690 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 29/50 | avg_loss=0.690950 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 30/50 | avg_loss=0.677122 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 31/50 | avg_loss=0.664134 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 32/50 | avg_loss=0.651922 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 33/50 | avg_loss=0.640427 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 34/50 | avg_loss=0.629594 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 35/50 | avg_loss=0.619376 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 36/50 | avg_loss=0.609727 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 37/50 | avg_loss=0.600605 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 38/50 | avg_loss=0.591974 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 39/50 | avg_loss=0.583800 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 40/50 | avg_loss=0.576050 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 41/50 | avg_loss=0.568696 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 42/50 | avg_loss=0.561711 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 43/50 | avg_loss=0.555070 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 44/50 | avg_loss=0.548752 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 45/50 | avg_loss=0.542735 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 46/50 | avg_loss=0.536999 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 47/50 | avg_loss=0.531529 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 48/50 | avg_loss=0.526306 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 49/50 | avg_loss=0.521316 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | P01 | Epoch 50/50 | avg_loss=0.516545 | accuracy=0.636
+2026-01-16 14:58:23 | INFO | IO | Wrote training log to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\outputs\train_log.csv
+2026-01-16 14:58:23 | INFO | IO | Wrote vocabulary to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\01_vocabulary.csv
+2026-01-16 14:58:23 | INFO | IO | Wrote model weights to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\02_model_weights.csv
+2026-01-16 14:58:23 | INFO | IO | Wrote meta to C:\Users\edaci\Documents\datafun\toy-gpt\train-200-bigram\artifacts\00_meta.json
+2026-01-16 14:58:23 | INFO | P01 | After training, most likely next token after 'the'|'cat' is 'lay' (ID: 2).
