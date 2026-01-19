@@ -1,10 +1,10 @@
 """d_train.py - Training loop module.
 
 Trains the SimpleNextTokenModel on a small token corpus
-using a bigram context (previous token, current token).
+using a bigram context (current token → next token).
 
 Responsibilities:
-- Create ((previous_token, current_token) -> next_token) training pairs from the corpus
+- Create (current_token -> next_token) training pairs from the corpus
 - Run a basic gradient-descent training loop
 - Track loss and accuracy per epoch
 - Write a CSV log of training progress
@@ -21,7 +21,7 @@ Concepts:
 Notes:
 - This is intentionally simple: no deep learning framework, no Transformer.
 - The model is a softmax regression classifier over bigram contexts.
-- Training updates the weight rows corresponding to the observed bigram context.
+- Training updates the weight row corresponding to the observed current token.
 - token_embeddings.csv is a visualization-friendly projection for levels 100-400;
   in later repos (500+), embeddings become a first-class learned table.
 """
@@ -49,40 +49,36 @@ __all__ = [
     "train_model",
 ]
 
-type BigramContext = tuple[int, int]
-type BigramPair = tuple[BigramContext, int]
+type BigramPair = tuple[int, int]
 
 LOG: logging.Logger = get_logger("P01", level="INFO")
 
 
 def token_row_index_bigram(token_id: int, vocab_size: int) -> int:
-    """Return the row index for a bigram context where previous_id == current_id == token_id.
+    """Return the row index for a bigram context.
 
-    Used for bootstrapping the first bigram step.
+    For bigram, the row index is simply the token_id itself.
     """
-    return token_id * vocab_size + token_id
+    _ = vocab_size  # unused in bigram, kept for API consistency
+    return token_id
 
 
 def row_labeler_bigram(vocab: VocabularyLike, vocab_size: int) -> RowLabeler:
-    """Map a bigram row index to a label like 'prev|curr'."""
+    """Map a bigram row index to a label (the token itself)."""
+    _ = vocab_size  # unused in bigram, kept for API consistency
 
     def label(row_idx: int) -> str:
-        previous_id: int = row_idx // vocab_size
-        current_id: int = row_idx % vocab_size
-
-        prev_tok: str = vocab.get_id_token(previous_id) or f"id_{previous_id}"
-        curr_tok: str = vocab.get_id_token(current_id) or f"id_{current_id}"
-
-        return f"{prev_tok}|{curr_tok}"
+        tok: str = vocab.get_id_token(row_idx) or f"id_{row_idx}"
+        return tok
 
     return label
 
 
 def make_training_pairs(token_ids: list[int]) -> list[BigramPair]:
-    """Convert token IDs into ((prev, curr), next) pairs."""
+    """Convert token IDs into (current, next) pairs."""
     pairs: list[BigramPair] = []
-    for i in range(len(token_ids) - 2):
-        pairs.append(((token_ids[i], token_ids[i + 1]), token_ids[i + 2]))
+    for i in range(len(token_ids) - 1):
+        pairs.append((token_ids[i], token_ids[i + 1]))
     return pairs
 
 
@@ -102,7 +98,7 @@ def train_model(
 
     Args:
         model: The model to train (weights will be modified in place).
-        pairs: List of (input_id, target_id) training pairs.
+        pairs: List of (current_id, target_id) training pairs.
         learning_rate: Step size for gradient descent. Larger values learn
             faster but may overshoot; smaller values are more stable but slower.
         epochs: Number of complete passes through the training data.
@@ -117,9 +113,9 @@ def train_model(
         total_loss: float = 0.0
         correct: int = 0
 
-        for (previous_id, current_id), target_id in pairs:
+        for current_id, target_id in pairs:
             # Forward pass: get probability distribution over next tokens.
-            probs: list[float] = model.forward(previous_id, current_id)
+            probs: list[float] = model.forward(current_id)
 
             # Compute loss: how surprised is the model by the correct answer?
             total_loss += cross_entropy_loss(probs, target_id)
@@ -139,8 +135,7 @@ def train_model(
             #   - For other tokens: gradient = prob - 0.0 (positive, so weight decreases)
             #
             # This pushes probability mass toward the correct token.
-            row_idx: int = previous_id * model.vocab_size + current_id
-            row: list[float] = model.weights[row_idx]
+            row: list[float] = model.weights[current_id]
             for j in range(model.vocab_size):
                 y: float = 1.0 if j == target_id else 0.0
                 grad: float = probs[j] - y
@@ -198,7 +193,7 @@ def main() -> None:
             return
         token_ids.append(tok_id)
 
-    # Step 4: Create training pairs (input -> target).
+    # Step 4: Create training pairs (current -> next).
     pairs: list[BigramPair] = make_training_pairs(token_ids)
     LOG.info(f"Created {len(pairs)} training pairs.")
 
@@ -232,16 +227,14 @@ def main() -> None:
     )
 
     # Step 8: Qualitative check - what does the model predict after first token?
-    previous_token: str = tokens[0]
-    current_token: str = tokens[1]
-    previous_id: int | None = vocab.get_token_id(previous_token)
+    current_token: str = tokens[0]
     current_id: int | None = vocab.get_token_id(current_token)
-    if previous_id is not None and current_id is not None:
-        probs: list[float] = model.forward(previous_id, current_id)
+    if current_id is not None:
+        probs: list[float] = model.forward(current_id)
         best_next_id: int = argmax(probs)
         best_next_tok: str | None = vocab.get_id_token(best_next_id)
         LOG.info(
-            f"After training, most likely next token after {previous_token!r}|{current_token!r} "
+            f"After training, most likely next token after {current_token!r} "
             f"is {best_next_tok!r} (ID: {best_next_id})."
         )
 

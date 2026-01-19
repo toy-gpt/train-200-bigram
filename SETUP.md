@@ -71,7 +71,7 @@ Run Python checks and tests:
 ```shell
 uv run ruff format .
 uv run ruff check . --fix
-uv run pytest
+uv run -- python -m pytest
 
 uv run pyright
 uv run bandit -c pyproject.toml -r src

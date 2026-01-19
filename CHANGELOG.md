@@ -13,6 +13,14 @@ and this project adheres to **[Semantic Versioning](https://semver.org/spec/v2.0
 
 ---
 
+## [0.9.5] - 2026-01-18
+
+### Updated
+
+- Extracted prompts
+
+---
+
 ## [0.9.3] - 2026-01-18
 
 ### Fixed
@@ -57,6 +65,7 @@ git tag v0.9.0 -m "0.9.0"
 git push origin v0.9.0
 ```
 
-[Unreleased]: https://github.com/toy-gpt/train-200-bigram/compare/v0.9.2...HEAD
+[Unreleased]: https://github.com/toy-gpt/train-200-bigram/compare/v0.9.5...HEAD
+[0.9.5]: https://github.com/toy-gpt/train-200-bigram/releases/tag/v0.9.5
 [0.9.2]: https://github.com/toy-gpt/train-200-bigram/releases/tag/v0.9.2
 [0.9.1]: https://github.com/toy-gpt/train-200-bigram/releases/tag/v0.9.1

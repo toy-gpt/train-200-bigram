@@ -27,7 +27,8 @@ from typing import Final
 from datafun_toolkit.logger import get_logger, log_header
 
 from toy_gpt_train.c_model import SimpleNextTokenModel
-from toy_gpt_train.d_train import argmax
+from toy_gpt_train.math_training import argmax
+from toy_gpt_train.prompts import parse_args
 
 __all__ = [
     "ArtifactVocabulary",
@@ -147,7 +148,7 @@ def load_model_weights_csv(
     """Load 02_model_weights.csv -> weights matrix.
 
     Expected shape:
-    - one row per input token (2-token context for bigram model)
+    - one row per input token (current token for bigram model)
     - one column per output token (after the first 'input_token' column)
     """
     weights: list[list[float]] = []
@@ -198,7 +199,7 @@ def generate_tokens_bigram(
     start_token: str,
     num_tokens: int,
 ) -> list[str]:
-    """Generate tokens using a bigram context (previous token, current token)."""
+    """Generate tokens using a bigram context (current token → next token)."""
     generated: list[str] = [start_token]
     current_id: int | None = vocab.get_token_id(start_token)
 
@@ -206,10 +207,8 @@ def generate_tokens_bigram(
         LOG.error(f"Start token not in vocabulary: {start_token!r}")
         return generated
 
-    previous_id: int = current_id  # bootstrap: prev = curr for first step
-
     for _ in range(num_tokens):
-        probs: list[float] = model.forward(previous_id, current_id)
+        probs: list[float] = model.forward(current_id)
         next_id: int = argmax(probs)
         next_token: str | None = vocab.get_id_token(next_id)
 
@@ -218,38 +217,9 @@ def generate_tokens_bigram(
             break
 
         generated.append(next_token)
-        previous_id = current_id
         current_id = next_id
 
     return generated
-
-
-def parse_args() -> argparse.Namespace:
-    """Parse command-line arguments."""
-    parser = argparse.ArgumentParser(
-        description="Toy GPT inference from saved artifacts."
-    )
-    parser.add_argument(
-        "--start",
-        dest="start_token",
-        default="",
-        help="Start token for generation. If omitted, uses the first token in the vocabulary.",
-    )
-    parser.add_argument(
-        "--num",
-        dest="num_tokens",
-        type=int,
-        default=10,
-        help="Number of tokens to generate (not counting the start token).",
-    )
-    parser.add_argument(
-        "--topk",
-        dest="topk",
-        type=int,
-        default=3,
-        help="Show top-k next-token probabilities for the start token.",
-    )
-    return parser.parse_args()
 
 
 def main() -> None:
@@ -273,9 +243,7 @@ def main() -> None:
 
     v: int = vocab.vocab_size()
     model: SimpleNextTokenModel = SimpleNextTokenModel(vocab_size=v)
-    model.weights = load_model_weights_csv(
-        weights_path, vocab_size=v, expected_rows=v * v
-    )
+    model.weights = load_model_weights_csv(weights_path, vocab_size=v, expected_rows=v)
 
     args: argparse.Namespace = parse_args()
 
@@ -294,7 +262,7 @@ def main() -> None:
 
     start_id = vocab.get_token_id(start_token)
     if start_id is not None:
-        probs: list[float] = model.forward(start_id, start_id)
+        probs: list[float] = model.forward(start_id)
         LOG.info(f"Top next-token predictions after {start_token!r}:")
         for tok_id, prob in top_k(probs, k=max(1, args.topk)):
             tok = vocab.get_id_token(tok_id)
