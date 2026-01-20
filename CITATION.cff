@@ -6,8 +6,8 @@ cff-version: "1.2.0"
 type: software
 
 title: "Toy-GPT: Bigram Next-Token Language Model"
-version: "0.9.5"
-date-released: "2026-01-18"
+version: "0.9.6"
+date-released: "2026-01-20"
 
 authors:
   - family-names: Case
@@ -53,4 +53,4 @@ keywords:
   - open-source
   - github
 
-message: "If you use this software in academic or educational work, please cite it using this file."
+message: "If you use this project, please cite it using this file."
