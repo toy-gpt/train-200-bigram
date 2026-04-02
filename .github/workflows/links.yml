@@ -247,14 +247,12 @@ jobs:
         # WHY: Ensure the overall status is not green when broken links are detected.
         if: always()
         run: |
-          code="${{ steps.lychee.outputs.exit_code }}"
-
-          if [ -z "$code" ]; then
-            echo "::error::Lychee exit code missing (treating as failure so status is not green)."
+          count="${{ steps.lychee.outputs.fail_count }}"
+          if [ -z "$count" ]; then
+            echo "::error::Lychee fail_count missing."
             exit 1
           fi
-
-          if [ "$code" != "0" ]; then
-            echo "::error::Broken links detected (lychee exit code $code). See the job summary report."
+          if [ "$count" != "0" ]; then
+            echo "::error::Broken links detected (fail_count=$count). See the job summary."
             exit 1
           fi
