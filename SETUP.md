@@ -11,9 +11,9 @@ Follow the detailed instructions at [pro-analytics-20](https://denisecase.github
 Fork this repo into your GitHub account.
 In your repo Settings:
 
--  Go to Pages tab / Enable GitHub Pages / Build and deployment / set Source to **GitHub Actions**
--  Go to Advanced Security tab / Dependabot / Dependabot security updates / **Enable**
--  And Advanced Security tab / Dependabot / Grouped security updates / **Enable**
+- Go to Pages tab / Enable GitHub Pages / Build and deployment / set Source to **GitHub Actions**
+- Go to Advanced Security tab / Dependabot / Dependabot security updates / **Enable**
+- And Advanced Security tab / Dependabot / Grouped security updates / **Enable**
 
 Open a machine terminal to the folder where you store your **Repos**, and run:
 
@@ -44,8 +44,6 @@ uvx pre-commit run --all-files
 git add -A
 uvx pre-commit run --all-files
 ```
-
-
 
 ## 03: Daily Workflow (Working With Python Project Code)
 
@@ -86,8 +84,6 @@ git add -A
 git commit -m "update"
 git push -u origin main
 ```
-
-
 
 ## Resources
 
